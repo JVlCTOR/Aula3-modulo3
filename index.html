@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form onsubmit="checkStatus()">
+        <h1>Check Idade</h1>
+        <label for="idade">Status</label>
+        <select id="status_compra">
+            <option></option>
+            <option>pago</option>
+            <option>recusado</option>
+            <option>pendente</option>
+            <option>disputa</option>
+        </select>
+        <button type="submit">Testar</button>
+        <div id="resultado">
+            <img src="img/crianca.jpg" alt="criança" id="criança">
+        </div>
+    </form>
+    <script src="scripts.js"></script>
+</body>
+</html>
